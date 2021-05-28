@@ -42,7 +42,7 @@ def parse(num_pages):
 				companyInfoElement = job.find_element_by_class_name('companyInfo')
 				company = companyInfoElement.find_element_by_tag_name('a').text
 
-				rating, reviews = '0','0'
+				rating, reviews = '0','0' # default
 				try:
 					rating = companyInfoElement.find_element_by_class_name('starRating').text
 					reviews = companyInfoElement.find_element_by_class_name('reviewsCount').text[1:-1].replace(' Reviews','')
