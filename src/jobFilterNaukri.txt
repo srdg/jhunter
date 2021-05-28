@@ -1,5 +1,5 @@
 # This is a comment
-# The '=' character should be surrounded with spaces
+# The '=' character should not be surrounded with spaces
 
 Keywords=Computer Vision, Pattern Recognition, Image Processing, Opencv, Deep Learning
 
